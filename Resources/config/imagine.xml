@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="jmikola_imagine.filter.loader.relative_resize.class">Jmikola\ImagineBundle\Imagine\Filter\Loader\RelativeResizeFilterLoader</parameter>
+        <parameter key="jmikola_imagine.filter.loader.resize.class">Jmikola\ImagineBundle\Imagine\Filter\Loader\ResizeFilterLoader</parameter>
+    </parameters>
+
+    <services>
+        <service id="jmikola_imagine.filter.loader.relative_resize" class="%jmikola_imagine.filter.loader.relative_resize.class%">
+            <tag name="imagine.filter.loader" filter="relative_resize" />
+        </service>
+        <service id="jmikola_imagine.filter.loader.resize" class="%jmikola_imagine.filter.loader.resize.class%">
+            <tag name="imagine.filter.loader" filter="resize" />
+        </service>
+    </services>
+
+</container>
