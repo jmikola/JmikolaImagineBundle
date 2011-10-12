@@ -98,5 +98,5 @@ avalanche_imagine:
 If you prefer using Imagine without a filter configuration, the `RelativeResize`
 class may be used directly.
 
+  [Imagine]: https://github.com/avalanche123/Imagine
   [AvalancheImagineBundle]: https://github.com/avalanche123/AvalancheImagineBundle
-  [Resources/doc/index.md]: https://github.com/jmikola/JmikolaImagineBundle/blob/master/Resources/doc/index.md
