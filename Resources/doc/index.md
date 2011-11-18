@@ -90,7 +90,7 @@ avalanche_imagine:
         increase:
             type:    relative_resize
             options: { increase: 10 } # Transforms 50x40 to 60x50
-        widen:
+        scale:
             type:    relative_resize
             options: { scale: 2.5 }   # Transforms 50x40 to 125x100
 ```
