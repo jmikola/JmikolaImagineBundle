@@ -1,3 +1,10 @@
+**NOTE:** This bundle is obsolete and will be deleted soon. The RelativeResize
+filter it implemented has since been merged into Imagine core (see:
+[Imagine#166][] and [AvalancheImagineBundle#57][]), as well as
+[LiipImagineBundle][] (see: [#37][], [#39][]).
+
+---
+
 # JmikolaImagineBundle
 
 This bundle provides a RelativeResize filter for [Imagine][] and a corresponding
@@ -62,5 +69,10 @@ avalanche_imagine:
 If you prefer using Imagine without a filter configuration, the `RelativeResize`
 class may be used directly.
 
+  [Imagine#166]: https://github.com/avalanche123/Imagine/pull/166
+  [AvalancheImagineBundle#57]: https://github.com/avalanche123/AvalancheImagineBundle#57
+  [LiipImagineBundle]: https://github.com/liip/LiipImagineBundle
+  [#37]: https://github.com/liip/LiipImagineBundle/pull/37
+  [#39]: https://github.com/liip/LiipImagineBundle/pull/39
   [Imagine]: https://github.com/avalanche123/Imagine
   [AvalancheImagineBundle]: https://github.com/avalanche123/AvalancheImagineBundle
